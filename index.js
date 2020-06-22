@@ -72,4 +72,5 @@ client.on('guildMemberAdd', member => {
   channel.send(`Welcome ${member}!`);
 });
 
-client.login(token);
+client.login(token
+);
