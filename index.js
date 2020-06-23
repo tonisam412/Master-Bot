@@ -26,8 +26,8 @@ Structures.extend('Guild', function(Guild) {
 });
 
 const client = new CommandoClient({
-  commandPrefix: prefix,
-  owner: discord_owner_id // value comes from config.json
+  commandPrefix: ".",
+  owner: "669818462734123041" // value comes from config.json
 });
 
 client.registry
@@ -72,4 +72,4 @@ client.on('guildMemberAdd', member => {
   channel.send(`Welcome ${member}!`);
 });
 
-client.login(token);
+client.login("NzA1NzY2ODIxNTI5MjU2MDM3.XvJleA.feofOxothH-NZ8J69ZfkiL0bOYs");
